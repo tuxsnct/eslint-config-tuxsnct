@@ -33,6 +33,13 @@ extends:
   - tuxsnct/preact
 ```
 
+### For Jest
+```yaml
+extends:
+  - tuxsnct
+  - tuxsnct/jest
+```
+
 ### For Prettier
 ```yaml
 extends:

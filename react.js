@@ -11,5 +11,10 @@ module.exports = {
       'error',
       'string'
     ]
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }
