@@ -1,7 +1,15 @@
 module.exports = {
   extends: [
     './index.js',
-    'prettier',
-    'prettier/@typescript-eslint'
+    'prettier'
+  ],
+  overrides: [
+    {
+      extends: ['prettier/@typescript-eslint'],
+      files: [
+        '*.ts',
+        '*.tsx'
+      ]
+    }
   ]
 }
