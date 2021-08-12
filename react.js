@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
     './index.js',
-    'jsx-a11y',
-    'react',
-    'react-hooks',
-    '@emotion'
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended'
   ],
+  plugins: ['@emotion'],
   rules: {
     '@emotion/syntax-preference': [
       'error',
