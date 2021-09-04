@@ -24,9 +24,17 @@ module.exports = {
     'json-format'
   ],
   rules: {
+    'function-call-argument-newline': [
+      'error',
+      'consistent'
+    ],
     'function-paren-newline': [
       'error',
       'multiline'
+    ],
+    'import/order': [
+      'error',
+      { alphabetize: { order: 'asc' } }
     ],
     indent: [
       'error',
@@ -39,15 +47,22 @@ module.exports = {
     'no-magic-numbers': 'off',
     'no-ternary': 'off',
     'no-warning-comments': [
-      0,
+      'off',
       {
         location: 'start',
         terms: [
           'todo',
-          'fixme',
-          'xxx'
+          'fixme'
         ]
       }
-    ]
+    ],
+    'sort-imports': 'off'
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts']
+      }
+    }
   }
 }
