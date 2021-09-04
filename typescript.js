@@ -19,7 +19,11 @@ module.exports = {
         ecmaVersion: 2021,
         sourceType: 'module'
       },
-      plugins: ['@typescript-eslint']
+      plugins: ['@typescript-eslint'],
+      rules: {
+        'no-undef': 'off',
+        'no-use-before-define': 'off'
+      }
     }
   ]
 }

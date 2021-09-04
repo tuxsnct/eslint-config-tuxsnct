@@ -22,5 +22,32 @@ module.exports = {
   plugins: [
     'regexp',
     'json-format'
-  ]
+  ],
+  rules: {
+    'function-paren-newline': [
+      'error',
+      'multiline'
+    ],
+    indent: [
+      'error',
+      2
+    ],
+    'max-len': [
+      'error',
+      { code: 120 }
+    ],
+    'no-magic-numbers': 'off',
+    'no-ternary': 'off',
+    'no-warning-comments': [
+      0,
+      {
+        location: 'start',
+        terms: [
+          'todo',
+          'fixme',
+          'xxx'
+        ]
+      }
+    ]
+  }
 }

@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-tuxsnct",
-  "version": "1.2.0",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
+  "version": "1.2.9",
   "repository": "https://gitlab.com/tuxsnct/eslint-config-tuxsnct.git",
   "license": "MIT",
   "author": "Hideki Tanaka <work@tuxsnct.com>",

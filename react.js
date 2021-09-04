@@ -5,6 +5,14 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended'
   ],
+  overrides: [
+    {
+      files: ['**/*.tsx'],
+      rules: {
+        'react/prop-types': 'off'
+      }
+    }
+  ],
   plugins: ['@emotion'],
   rules: {
     '@emotion/syntax-preference': [
