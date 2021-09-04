@@ -20,8 +20,9 @@ module.exports = {
     }
   ],
   plugins: [
+    'json-format',
     'regexp',
-    'json-format'
+    'sort-keys-fix'
   ],
   rules: {
     'function-call-argument-newline': [
@@ -56,7 +57,8 @@ module.exports = {
         ]
       }
     ],
-    'sort-imports': 'off'
+    'sort-imports': 'off',
+    'sort-keys-fix/sort-keys-fix': 'error'
   },
   settings: {
     'import/resolver': {
