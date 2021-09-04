@@ -4,7 +4,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "version": "1.2.10",
+  "version": "1.2.11",
   "repository": "https://github.com/tuxsnct/eslint-config-tuxsnct.git",
   "license": "MIT",
   "author": "Hideki Tanaka <work@tuxsnct.com>",
@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-regexp": "^0.13.2",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-yml": "^0.10.0"
   },
   "devDependencies": {
