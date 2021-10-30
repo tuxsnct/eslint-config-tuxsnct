@@ -1,28 +1,28 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@commitlint/cli': ^13.1.0
-  '@commitlint/config-conventional': ^13.1.0
-  '@emotion/eslint-plugin': ^11.2.0
-  '@typescript-eslint/eslint-plugin': ^4.29.1
-  '@typescript-eslint/parser': ^4.29.1
+  '@commitlint/cli': ^13.2.1
+  '@commitlint/config-conventional': ^13.2.0
+  '@emotion/eslint-plugin': ^11.5.0
+  '@typescript-eslint/eslint-plugin': ^4.33.0
+  '@typescript-eslint/parser': ^4.33.0
   eslint: ^7.32.0
-  eslint-config-preact: ^1.1.4
+  eslint-config-preact: ^1.2.0
   eslint-config-prettier: ^8.3.0
   eslint-config-standard: ^16.0.3
-  eslint-plugin-import: ^2.24.0
-  eslint-plugin-jest: ^24.4.0
+  eslint-plugin-import: ^2.25.2
+  eslint-plugin-jest: ^24.7.0
   eslint-plugin-json-format: ^2.0.1
   eslint-plugin-jsx-a11y: ^6.4.1
   eslint-plugin-node: ^11.1.0
-  eslint-plugin-promise: ^5.1.0
-  eslint-plugin-react: ^7.24.0
+  eslint-plugin-promise: ^5.1.1
+  eslint-plugin-react: ^7.26.1
   eslint-plugin-react-hooks: ^4.2.0
   eslint-plugin-regexp: ^0.13.2
   eslint-plugin-sort-keys-fix: ^1.1.2
-  eslint-plugin-yml: ^0.10.0
-  husky: ^7.0.1
-  prettier: ^2.3.2
+  eslint-plugin-yml: ^0.10.1
+  husky: ^7.0.4
+  prettier: ^2.4.1
 
 dependencies:
   '@emotion/eslint-plugin': 11.5.0_eslint@7.32.0
