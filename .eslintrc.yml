@@ -1,4 +1,4 @@
 extends:
   ./index.js
 rules:
-  unicorn/prefer-module: 'off'
+  unicorn/prefer-module: off
