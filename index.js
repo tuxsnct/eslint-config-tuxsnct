@@ -36,7 +36,7 @@ module.exports = {
   rules: {
     'array-element-newline': ['error', 'consistent'],
     'function-call-argument-newline': ['error', 'consistent'],
-    'function-paren-newline': ['error', 'multiline'],
+    'function-paren-newline': ['error', 'consistent'],
     'import/order': ['error', { alphabetize: { order: 'asc' } }],
     indent: ['error', 2],
     'max-len': ['error', { code: 120 }],
