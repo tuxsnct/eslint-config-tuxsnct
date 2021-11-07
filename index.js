@@ -21,10 +21,7 @@ module.exports = {
       parser: 'toml-eslint-parser'
     },
     {
-      files: [
-        '*.yaml',
-        '*.yml'
-      ],
+      files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser'
     }
   ],
@@ -37,26 +34,12 @@ module.exports = {
     'no-secrets'
   ],
   rules: {
-    'function-call-argument-newline': [
-      'error',
-      'consistent'
-    ],
-    'function-paren-newline': [
-      'error',
-      'multiline'
-    ],
-    'import/order': [
-      'error',
-      { alphabetize: { order: 'asc' } }
-    ],
-    indent: [
-      'error',
-      2
-    ],
-    'max-len': [
-      'error',
-      { code: 120 }
-    ],
+    'array-element-newline': ['error', 'consistent'],
+    'function-call-argument-newline': ['error', 'consistent'],
+    'function-paren-newline': ['error', 'multiline'],
+    'import/order': ['error', { alphabetize: { order: 'asc' } }],
+    indent: ['error', 2],
+    'max-len': ['error', { code: 120 }],
     'no-magic-numbers': 'off',
     'no-secrets/no-secrets': 'error',
     'no-ternary': 'off',

@@ -3,40 +3,38 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': ^14.1.0
   '@commitlint/config-conventional': ^14.1.0
-  '@emotion/eslint-plugin': ~11.5.0
-  '@solid/eslint-config-base': ~0.3.0
-  '@typescript-eslint/eslint-plugin': ~5.3.0
-  '@typescript-eslint/parser': ~5.3.0
+  '@emotion/eslint-plugin': ^11.5.0
+  '@typescript-eslint/eslint-plugin': ^5.3.0
+  '@typescript-eslint/parser': ^5.3.0
   eslint: ^8.2.0
-  eslint-config-preact: ~1.2.0
-  eslint-config-prettier: ~8.3.0
-  eslint-config-standard: ~16.0.3
-  eslint-plugin-compat: ~3.13.0
-  eslint-plugin-eslint-comments: ~3.2.0
-  eslint-plugin-import: ~2.25.2
-  eslint-plugin-jest: ~25.2.3
-  eslint-plugin-json-format: ~2.0.1
-  eslint-plugin-jsx-a11y: ~6.4.1
-  eslint-plugin-mdx: ~1.16.0
-  eslint-plugin-no-secrets: ~0.8.9
-  eslint-plugin-node: ~11.1.0
-  eslint-plugin-promise: ~5.1.1
-  eslint-plugin-react: ~7.26.1
-  eslint-plugin-react-hooks: ~4.2.0
-  eslint-plugin-regexp: ~1.5.0
-  eslint-plugin-security: ~1.4.0
-  eslint-plugin-sonarjs: ~0.10.0
-  eslint-plugin-sort-keys-fix: ~1.1.2
-  eslint-plugin-toml: ~0.3.0
-  eslint-plugin-unicorn: ~38.0.0
-  eslint-plugin-yml: ~0.11.0
+  eslint-config-preact: ^1.2.0
+  eslint-config-prettier: ^8.3.0
+  eslint-config-standard: ^16.0.3
+  eslint-plugin-compat: ^3.13.0
+  eslint-plugin-eslint-comments: ^3.2.0
+  eslint-plugin-import: ^2.25.2
+  eslint-plugin-jest: ^25.2.3
+  eslint-plugin-json-format: ^2.0.1
+  eslint-plugin-jsx-a11y: ^6.4.1
+  eslint-plugin-mdx: ^1.16.0
+  eslint-plugin-no-secrets: ^0.8.9
+  eslint-plugin-node: ^11.1.0
+  eslint-plugin-promise: ^5.1.1
+  eslint-plugin-react: ^7.26.1
+  eslint-plugin-react-hooks: ^4.2.0
+  eslint-plugin-regexp: ^1.5.0
+  eslint-plugin-security: ^1.4.0
+  eslint-plugin-sonarjs: ^0.10.0
+  eslint-plugin-sort-keys-fix: ^1.1.2
+  eslint-plugin-toml: ^0.3.0
+  eslint-plugin-unicorn: ^38.0.0
+  eslint-plugin-yml: ^0.11.0
   husky: ^7.0.4
-  jest: ~27.3.1
+  jest: ^27.3.1
   prettier: ^2.4.1
 
 dependencies:
   '@emotion/eslint-plugin': 11.5.0_eslint@8.2.0
-  '@solid/eslint-config-base': 0.3.0_78eb4c4c77c37d1349cb482a16a482fd
   '@typescript-eslint/eslint-plugin': 5.3.0_ddca4e8b164ef545bfe85e7b1b6bd930
   '@typescript-eslint/parser': 5.3.0_eslint@8.2.0
   eslint-config-preact: 1.2.0_eslint@8.2.0
@@ -413,7 +411,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.12.9
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.14.5
     dev: false
 
   /@babel/plugin-syntax-object-rest-spread/7.8.3_@babel+core@7.16.0:
@@ -422,7 +420,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.16.0
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.14.5
     dev: false
 
   /@babel/plugin-syntax-optional-catch-binding/7.8.3_@babel+core@7.16.0:
@@ -969,26 +967,6 @@ packages:
     resolution: {integrity: sha512-OAPJUAtgeINhh/TAlUID4QTs53Njm7xzddaVlEs/SXwgtiD1tW22zAB/W1wdqfrpmikgaWQ9Fw6Ws+hsiRm5Vg==}
     dependencies:
       '@sinonjs/commons': 1.8.3
-    dev: false
-
-  /@solid/eslint-config-base/0.3.0_78eb4c4c77c37d1349cb482a16a482fd:
-    resolution: {integrity: sha512-GDOaIYv4frS9CnyZHgERi71/oHl9x9z6PbweHE6voOh4dBCsS85y2GflxUJ8SKIYmXrA6K7ovnpXMxjoT343gw==}
-    peerDependencies:
-      '@typescript-eslint/eslint-plugin': 4.x
-      '@typescript-eslint/parser': 4.x
-      eslint: 7.x
-      eslint-config-airbnb-base: 14.x
-      eslint-config-prettier: 8.x
-      eslint-plugin-import: 2.x
-      eslint-plugin-jest: 24.x
-      eslint-plugin-prettier: 4.x
-    dependencies:
-      '@typescript-eslint/eslint-plugin': 5.3.0_ddca4e8b164ef545bfe85e7b1b6bd930
-      '@typescript-eslint/parser': 5.3.0_eslint@8.2.0
-      eslint: 8.2.0
-      eslint-config-prettier: 8.3.0_eslint@8.2.0
-      eslint-plugin-import: 2.25.2_eslint@8.2.0
-      eslint-plugin-jest: 25.2.3_b346a2d658c1c90a24cd912afc0a4911
     dev: false
 
   /@tootallnate/once/1.1.2:

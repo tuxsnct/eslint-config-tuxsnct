@@ -19,10 +19,7 @@ module.exports = {
   ],
   plugins: ['@emotion'],
   rules: {
-    '@emotion/syntax-preference': [
-      'error',
-      'string'
-    ]
+    '@emotion/syntax-preference': ['error', 'string']
   },
   settings: {
     react: {
