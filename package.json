@@ -4,7 +4,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "version": "1.3.1",
+  "version": "1.3.2",
   "repository": "https://github.com/tuxsnct/eslint-config-tuxsnct.git",
   "license": "MIT",
   "author": "Hideki Tanaka <work@tuxsnct.com>",
