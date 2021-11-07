@@ -4,7 +4,7 @@ module.exports = {
   },
   extends: [
     './index.js',
-    'jsx-a11y',
+    'plugin:jsx-a11y/recommended',
     'preact'
   ]
 }
