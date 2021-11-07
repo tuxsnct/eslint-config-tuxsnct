@@ -6,11 +6,20 @@ module.exports = {
   extends: [
     'eslint:all',
     'standard',
+    'plugin:sonarjs/recommended',
+    'plugin:unicorn/recommended',
     'plugin:import/recommended',
+    'plugin:security/recommended',
+    'plugin:eslint-comments/recommended',
     'plugin:regexp/recommended',
+    'plugin:toml/standard',
     'plugin:yml/standard'
   ],
   overrides: [
+    {
+      files: ['*.toml'],
+      parser: 'toml-eslint-parser'
+    },
     {
       files: [
         '*.yaml',
@@ -22,7 +31,10 @@ module.exports = {
   plugins: [
     'json-format',
     'regexp',
-    'sort-keys-fix'
+    'security',
+    'sonarjs',
+    'sort-keys-fix',
+    'no-secrets'
   ],
   rules: {
     'function-call-argument-newline': [
@@ -46,6 +58,7 @@ module.exports = {
       { code: 120 }
     ],
     'no-magic-numbers': 'off',
+    'no-secrets/no-secrets': 'error',
     'no-ternary': 'off',
     'no-warning-comments': [
       'off',
