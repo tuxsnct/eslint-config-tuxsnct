@@ -3,7 +3,6 @@ module.exports = {
     browser: true
   },
   extends: [
-    './index.js',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:compat/recommended',

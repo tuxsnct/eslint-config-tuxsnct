@@ -2,7 +2,6 @@ module.exports = {
   overrides: [
     {
       extends: [
-        './index.js',
         'plugin:import/typescript',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking'
