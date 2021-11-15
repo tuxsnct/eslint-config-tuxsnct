@@ -6,8 +6,7 @@ module.exports = {
     './index.js',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
-    'plugin:compat/recommended'
+    'plugin:jsx-a11y/recommended'
   ],
   overrides: [
     {
