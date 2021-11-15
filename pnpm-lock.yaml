@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': ^14.1.0
   '@commitlint/config-conventional': ^14.1.0
+  '@emotion/eslint-plugin': ^11.5.0
   '@typescript-eslint/eslint-plugin': ^5.3.1
   '@typescript-eslint/parser': ^5.3.1
   eslint: ^8.2.0
@@ -33,6 +34,7 @@ specifiers:
   prettier: ^2.4.1
 
 dependencies:
+  '@emotion/eslint-plugin': 11.5.0_eslint@8.2.0
   '@typescript-eslint/eslint-plugin': 5.3.1_e823f6141357078882e51582e0472085
   '@typescript-eslint/parser': 5.3.1_eslint@8.2.0
   eslint-config-prettier: 8.3.0_eslint@8.2.0
@@ -642,6 +644,15 @@ packages:
     dependencies:
       chalk: 4.1.2
     dev: true
+
+  /@emotion/eslint-plugin/11.5.0_eslint@8.2.0:
+    resolution: {integrity: sha512-AyjeBIHuFYQIMLB+t5VRqXGzMkrD98p9aCgxTxt0DGBjQa6ExDU5xvhbeSjLRClc1zIYkDmbNBbGB71RAVgqFw==}
+    engines: {node: '>=6'}
+    peerDependencies:
+      eslint: 6 || 7
+    dependencies:
+      eslint: 8.2.0
+    dev: false
 
   /@endemolshinegroup/cosmiconfig-typescript-loader/3.0.2_3fdcc7bc724bd900a681b5e9457ed94a:
     resolution: {integrity: sha512-QRVtqJuS1mcT56oHpVegkKBlgtWjXw/gHNWO3eL9oyB5Sc7HBoc2OLG/nYpVfT/Jejvo3NUrD0Udk7XgoyDKkA==}
