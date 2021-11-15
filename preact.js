@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['./react.js']
+  extends: ['./react.js'],
+  settings: {
+    react: {
+      pragma: 'h'
+    }
+  }
 }
