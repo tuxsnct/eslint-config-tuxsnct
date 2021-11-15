@@ -1,6 +1,7 @@
 .husky
 .commitlintrc.yml
 .editorconfig
+.eslintignore
 .eslintrc.yml
 .gitignore
 .npmignore

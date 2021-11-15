@@ -12,10 +12,15 @@ module.exports = {
     'plugin:security/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:regexp/recommended',
+    'plugin:jsonc/recommended-with-json',
     'plugin:toml/standard',
     'plugin:yml/standard'
   ],
   overrides: [
+    {
+      files: ['*.json', '*.json5', '*.jsonc'],
+      parser: 'jsonc-eslint-parser'
+    },
     {
       files: ['*.toml'],
       parser: 'toml-eslint-parser'
