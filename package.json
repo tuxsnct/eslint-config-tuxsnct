@@ -1,13 +1,21 @@
 {
   "name": "eslint-config-tuxsnct",
-  "version": "3.2.1",
+  "version": "3.3.0",
+  "description": "Shareable ESLint config for tuxsnct.",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "repository": "https://github.com/tuxsnct/eslint-config-tuxsnct.git",
+  "repository": {
+    "type": "git",
+    "url": "https://git.tuxsnct.com/tuxsnct/eslint-config-tuxsnct.git"
+  },
   "license": "MIT",
-  "author": "Hideki Tanaka <work@tuxsnct.com>",
+  "author": {
+    "name": "Hideki Tanaka",
+    "email": "work@tuxsnct.com",
+    "url": "https://tuxsnct.com/"
+  },
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.3.1",
