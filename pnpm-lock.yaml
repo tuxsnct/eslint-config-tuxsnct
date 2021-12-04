@@ -31,7 +31,7 @@ specifiers:
   eslint-plugin-yml: ^0.11.0
   husky: 7.0.4
   jest: ^27.3.1
-  prettier: 2.5.0
+  prettier: 2.5.1
 
 dependencies:
   '@emotion/eslint-plugin': 11.5.0_eslint@8.4.0
@@ -66,7 +66,7 @@ devDependencies:
   '@commitlint/config-conventional': 14.1.0
   eslint: 8.4.0
   husky: 7.0.4
-  prettier: 2.5.0
+  prettier: 2.5.1
 
 packages:
 
@@ -4357,8 +4357,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.5.0:
-    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
