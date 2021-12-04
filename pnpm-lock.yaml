@@ -27,7 +27,7 @@ specifiers:
   eslint-plugin-sonarjs: ^0.10.0
   eslint-plugin-sort-keys-fix: ^1.1.2
   eslint-plugin-toml: ^0.3.0
-  eslint-plugin-unicorn: ^38.0.1
+  eslint-plugin-unicorn: ^39.0.0
   eslint-plugin-yml: ^0.11.0
   husky: 7.0.4
   jest: ^27.3.1
@@ -57,7 +57,7 @@ dependencies:
   eslint-plugin-sonarjs: 0.10.0_eslint@8.4.0
   eslint-plugin-sort-keys-fix: 1.1.2
   eslint-plugin-toml: 0.3.0_eslint@8.4.0
-  eslint-plugin-unicorn: 38.0.1_eslint@8.4.0
+  eslint-plugin-unicorn: 39.0.0_eslint@8.4.0
   eslint-plugin-yml: 0.11.0_eslint@8.4.0
   jest: 27.3.1
 
@@ -2314,8 +2314,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-unicorn/38.0.1_eslint@8.4.0:
-    resolution: {integrity: sha512-eu4HCg7Bv43nk/hYZoWpLzRo668Nb7swQySn94aohn0heh9KLJ1GOFgVxJndLS8BploMGaClxgsyTNGJrP69yw==}
+  /eslint-plugin-unicorn/39.0.0_eslint@8.4.0:
+    resolution: {integrity: sha512-fd5RK2FtYjGcIx3wra7csIE/wkkmBo22T1gZtRTsLr1Mb+KsFKJ+JOdSqhHXQUrI/JTs/Mon64cEYzTgSCbltw==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=7.32.0'
