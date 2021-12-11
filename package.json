@@ -17,10 +17,6 @@
     "url": "https://www.tuxsnct.com/"
   },
   "main": "index.js",
-  "scripts": {
-    "postinstall": "husky install",
-    "prepare": "husky install"
-  },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.7.0",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
@@ -51,7 +47,6 @@
   },
   "devDependencies": {
     "eslint": "8.4.1",
-    "husky": "7.0.4",
     "prettier": "2.5.1"
   }
 }
