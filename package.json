@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tuxsnct",
-  "version": "3.4.2",
+  "version": "3.4.3",
   "description": "Shareable ESLint config for tuxsnct.",
   "keywords": [
     "eslint",
