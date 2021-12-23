@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tuxsnct",
-  "version": "3.4.4",
+  "version": "4.0.0",
   "description": "Shareable ESLint config for tuxsnct.",
   "keywords": [
     "eslint",
@@ -19,8 +19,8 @@
   "main": "index.js",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.7.0",
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-compat": "^4.0.0",
@@ -34,7 +34,7 @@
     "eslint-plugin-no-secrets": "^0.8.9",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-regexp": "^1.5.1",
     "eslint-plugin-security": "^1.4.0",
@@ -43,10 +43,13 @@
     "eslint-plugin-toml": "^0.3.0",
     "eslint-plugin-unicorn": "^39.0.0",
     "eslint-plugin-yml": "^0.12.0",
-    "jest": "^27.4.4"
+    "jest": "^27.4.5"
   },
   "devDependencies": {
     "eslint": "8.5.0",
     "prettier": "2.5.1"
+  },
+  "optionalDependencies": {
+    "typescript": "^4.5.4"
   }
 }

@@ -27,6 +27,7 @@ extends:
 ```
 
 ### For Preact
+Removed, please use tuxsnct/react in the future.
 ```yaml
 extends:
   - tuxsnct
