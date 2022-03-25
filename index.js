@@ -40,11 +40,13 @@ module.exports = {
   ],
   rules: {
     'array-element-newline': ['error', 'consistent'],
+    'capitalized-comments': 0,
     'function-call-argument-newline': ['error', 'consistent'],
     'function-paren-newline': ['error', 'consistent'],
     'import/order': ['error', { alphabetize: { order: 'asc' } }],
     indent: ['error', 2],
     'max-len': ['error', { code: 120 }],
+    'multiline-comment-style': 0,
     'no-magic-numbers': 'off',
     'no-secrets/no-secrets': 'error',
     'no-ternary': 'off',
