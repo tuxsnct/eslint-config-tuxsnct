@@ -18,7 +18,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@emotion/eslint-plugin": "11.7.0",
+    "@emotion/eslint-plugin": "11.11.0",
     "@typescript-eslint/eslint-plugin": "5.30.5",
     "@typescript-eslint/parser": "5.30.5",
     "eslint-config-standard": "17.0.0",
