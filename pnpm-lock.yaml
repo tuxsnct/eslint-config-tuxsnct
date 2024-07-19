@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@emotion/eslint-plugin':
-    specifier: 11.11.0
-    version: 11.11.0(eslint@8.52.0)
+    specifier: 11.12.0
+    version: 11.12.0(eslint@8.52.0)(typescript@5.2.2)
   '@typescript-eslint/eslint-plugin':
     specifier: 6.9.0
     version: 6.9.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2)
@@ -447,13 +447,17 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: false
 
-  /@emotion/eslint-plugin@11.11.0(eslint@8.52.0):
-    resolution: {integrity: sha512-jCOYqU/0Sqm+g+6D7QuIlG99q8YAF0T7BP98zQF/MPZKfbcm46z5mizXn0YlhZ9AYZfNtZ1DeODXdncYxZzR4Q==}
+  /@emotion/eslint-plugin@11.12.0(eslint@8.52.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-N0rtAVKk6w8RchWtexdG/GFbg48tdlO4cnq9Jg6H3ul3EDDgkYkPE0PKMb1/CJ7cDyYsiNPYVc3ZnWnd2/d0tA==}
     engines: {node: '>=6'}
     peerDependencies:
       eslint: 6 || 7 || 8
     dependencies:
+      '@typescript-eslint/utils': 5.62.0(eslint@8.52.0)(typescript@5.2.2)
       eslint: 8.52.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.52.0):
