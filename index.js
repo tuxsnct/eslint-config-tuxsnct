@@ -1,12 +1,7 @@
 module.exports = {
-  env: {
-    es2020: true,
-    node: true
-  },
   extends: [
-    'eslint:all',
+    'eslint:recommended',
     'standard',
-    'plugin:sonarjs/recommended',
     'plugin:unicorn/recommended',
     'plugin:import/recommended',
     'plugin:security/recommended',
@@ -34,7 +29,6 @@ module.exports = {
     'json-format',
     'regexp',
     'security',
-    'sonarjs',
     'sort-keys-fix',
     'no-secrets'
   ],
