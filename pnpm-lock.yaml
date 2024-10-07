@@ -44,9 +44,6 @@ importers:
       eslint-plugin-mdx:
         specifier: 3.1.5
         version: 3.1.5(eslint@9.9.0)
-      eslint-plugin-n:
-        specifier: 17.10.2
-        version: 17.10.2(eslint@9.9.0)
       eslint-plugin-no-secrets:
         specifier: 1.0.2
         version: 1.0.2(eslint@9.9.0)
@@ -68,9 +65,6 @@ importers:
       eslint-plugin-security:
         specifier: 3.0.1
         version: 3.0.1
-      eslint-plugin-sonarjs:
-        specifier: 1.0.4
-        version: 1.0.4(eslint@9.9.0)
       eslint-plugin-sort-keys-fix:
         specifier: 1.1.2
         version: 1.1.2
@@ -1287,12 +1281,6 @@ packages:
   eslint-plugin-security@3.0.1:
     resolution: {integrity: sha512-XjVGBhtDZJfyuhIxnQ/WMm385RbX3DBu7H1J7HNNhmB2tnGxMeqVSnYv79oAj992ayvIBZghsymwkYFS6cGH4Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  eslint-plugin-sonarjs@1.0.4:
-    resolution: {integrity: sha512-jF0eGCUsq/HzMub4ExAyD8x1oEgjOyB9XVytYGyWgSFvdiJQJp6IuP7RmtauCf06o6N/kZErh+zW4b10y1WZ+Q==}
-    engines: {node: '>=16'}
-    peerDependencies:
-      eslint: ^8.0.0 || ^9.0.0
 
   eslint-plugin-sort-keys-fix@1.1.2:
     resolution: {integrity: sha512-DNPHFGCA0/hZIsfODbeLZqaGY/+q3vgtshF85r+YWDNCQ2apd9PNs/zL6ttKm0nD1IFwvxyg3YOTI7FHl4unrw==}
@@ -4669,10 +4657,6 @@ snapshots:
   eslint-plugin-security@3.0.1:
     dependencies:
       safe-regex: 2.1.1
-
-  eslint-plugin-sonarjs@1.0.4(eslint@9.9.0):
-    dependencies:
-      eslint: 9.9.0
 
   eslint-plugin-sort-keys-fix@1.1.2:
     dependencies:
