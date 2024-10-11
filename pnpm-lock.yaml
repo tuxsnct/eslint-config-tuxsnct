@@ -44,9 +44,6 @@ importers:
       eslint-plugin-mdx:
         specifier: 3.1.5
         version: 3.1.5(eslint@9.9.0)
-      eslint-plugin-n:
-        specifier: 17.10.2
-        version: 17.10.2(eslint@9.9.0)
       eslint-plugin-no-secrets:
         specifier: 1.0.2
         version: 1.0.2(eslint@9.9.0)
@@ -60,17 +57,14 @@ importers:
         specifier: 7.35.0
         version: 7.35.0(eslint@9.9.0)
       eslint-plugin-react-hooks:
-        specifier: 4.6.2
-        version: 4.6.2(eslint@9.9.0)
+        specifier: 5.0.0
+        version: 5.0.0(eslint@9.9.0)
       eslint-plugin-regexp:
         specifier: 2.6.0
         version: 2.6.0(eslint@9.9.0)
       eslint-plugin-security:
         specifier: 3.0.1
         version: 3.0.1
-      eslint-plugin-sonarjs:
-        specifier: 1.0.4
-        version: 1.0.4(eslint@9.9.0)
       eslint-plugin-sort-keys-fix:
         specifier: 1.1.2
         version: 1.1.2
@@ -78,8 +72,8 @@ importers:
         specifier: 0.11.1
         version: 0.11.1(eslint@9.9.0)
       eslint-plugin-unicorn:
-        specifier: 55.0.0
-        version: 55.0.0(eslint@9.9.0)
+        specifier: 56.0.0
+        version: 56.0.0(eslint@9.9.0)
       eslint-plugin-yml:
         specifier: 1.14.0
         version: 1.14.0(eslint@9.9.0)
@@ -1266,11 +1260,11 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-react-hooks@4.6.2:
-    resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
+  eslint-plugin-react-hooks@5.0.0:
+    resolution: {integrity: sha512-hIOwI+5hYGpJEc4uPRmz2ulCjAGD/N13Lukkh8cLV0i2IRk/bdZDYjgLVHj+U9Z704kLIdIO6iueGvxNur0sgw==}
     engines: {node: '>=10'}
     peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-plugin-react@7.35.0:
     resolution: {integrity: sha512-v501SSMOWv8gerHkk+IIQBkcGRGrO2nfybfj5pLxuJNFTPxxA3PSryhXTK+9pNbtkggheDdsC0E9Q8CuPk6JKA==}
@@ -1288,12 +1282,6 @@ packages:
     resolution: {integrity: sha512-XjVGBhtDZJfyuhIxnQ/WMm385RbX3DBu7H1J7HNNhmB2tnGxMeqVSnYv79oAj992ayvIBZghsymwkYFS6cGH4Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  eslint-plugin-sonarjs@1.0.4:
-    resolution: {integrity: sha512-jF0eGCUsq/HzMub4ExAyD8x1oEgjOyB9XVytYGyWgSFvdiJQJp6IuP7RmtauCf06o6N/kZErh+zW4b10y1WZ+Q==}
-    engines: {node: '>=16'}
-    peerDependencies:
-      eslint: ^8.0.0 || ^9.0.0
-
   eslint-plugin-sort-keys-fix@1.1.2:
     resolution: {integrity: sha512-DNPHFGCA0/hZIsfODbeLZqaGY/+q3vgtshF85r+YWDNCQ2apd9PNs/zL6ttKm0nD1IFwvxyg3YOTI7FHl4unrw==}
     engines: {node: '>=0.10.0'}
@@ -1304,8 +1292,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-unicorn@55.0.0:
-    resolution: {integrity: sha512-n3AKiVpY2/uDcGrS3+QsYDkjPfaOrNrsfQxU9nt5nitd9KuvVXrfAvgCO9DYPSfap+Gqjw9EOrXIsBp5tlHZjA==}
+  eslint-plugin-unicorn@56.0.0:
+    resolution: {integrity: sha512-aXpddVz/PQMmd69uxO98PA4iidiVNvA0xOtbpUoz1WhBd4RxOQQYqN618v68drY0hmy5uU2jy1bheKEVWBjlPw==}
     engines: {node: '>=18.18'}
     peerDependencies:
       eslint: '>=8.56.0'
@@ -4629,7 +4617,7 @@ snapshots:
     dependencies:
       eslint: 9.9.0
 
-  eslint-plugin-react-hooks@4.6.2(eslint@9.9.0):
+  eslint-plugin-react-hooks@5.0.0(eslint@9.9.0):
     dependencies:
       eslint: 9.9.0
 
@@ -4670,10 +4658,6 @@ snapshots:
     dependencies:
       safe-regex: 2.1.1
 
-  eslint-plugin-sonarjs@1.0.4(eslint@9.9.0):
-    dependencies:
-      eslint: 9.9.0
-
   eslint-plugin-sort-keys-fix@1.1.2:
     dependencies:
       espree: 6.2.1
@@ -4691,7 +4675,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-unicorn@55.0.0(eslint@9.9.0):
+  eslint-plugin-unicorn@56.0.0(eslint@9.9.0):
     dependencies:
       '@babel/helper-validator-identifier': 7.24.7
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.9.0)
